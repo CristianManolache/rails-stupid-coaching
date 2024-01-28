@@ -1,4 +1,13 @@
-<p>The question you asked: <%= @question %></p>
-<p>The answer is: <%= @answer %></p>
-
-<%= link_to 'Ask again StupidCoach', ask_path %>
+<div class="container-answers">
+  <div class="container-questions">
+    <div class="user-card">
+      <p id="userquestion"><i class="fas fa-user-gear"></i> You: <%= @question %></p>
+    </div>
+    <div class="user-card">
+    <p id="coachanswer"><i class="fas fa-user-secret"></i> Coach: <%= @answer %></p>
+    </div>
+  </div>
+  <div class="container-links">
+    <%= link_to 'Ask again StupidCoach', ask_path, class:"link-to" %>
+  </div>
+</div>

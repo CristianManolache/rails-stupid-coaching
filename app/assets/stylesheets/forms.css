@@ -2,6 +2,7 @@
 .container-form {
   display: flex;
   justify-content: center;
+  border: 5px solid yellow;
 }
 #formbox {
   width: auto;
@@ -19,6 +20,7 @@
   padding: 20px;
 }
 #submitbutton {
+  cursor: pointer;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px #000;
