@@ -13,7 +13,7 @@
 1. **Navigate to the Ask Page**
    - Open your terminal and clone the repository:
      ```bash
-     git clone https://github.com/yourusername/stupid-coach.git
+     git clone [https://github.com/yourusername/stupid-coach.git](https://github.com/CristianManolache/rails-stupid-coaching)
      cd stupid-coach
      ```
 
