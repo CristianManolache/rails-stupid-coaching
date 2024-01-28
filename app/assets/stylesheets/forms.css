@@ -1,0 +1,26 @@
+/* Default Settings Body */
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+#formbox {
+  width: auto;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  padding: 20px;
+}
+#textbox {;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  padding: 20px;
+}
+#submitbutton {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  padding: 20px;
+}
