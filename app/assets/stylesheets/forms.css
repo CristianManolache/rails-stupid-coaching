@@ -2,7 +2,6 @@
 .container-form {
   display: flex;
   justify-content: center;
-  border: 5px solid yellow;
 }
 #formbox {
   width: auto;
@@ -21,8 +20,15 @@
 }
 #submitbutton {
   cursor: pointer;
-  background-color: #fff;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
   border-radius: 5px;
   box-shadow: 0 0 10px #000;
   padding: 20px;
+}
+#submitbutton:hover {
+  color: white;
+  font-size: 15px;
+  transition: 1s;
 }
